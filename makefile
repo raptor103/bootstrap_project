@@ -1,3 +1,7 @@
+setup:
+	pre-commit install
+	pip install -r requirements.txt
+
 test:
 	pytest --cov
 	flake8

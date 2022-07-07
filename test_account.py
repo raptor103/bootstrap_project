@@ -20,4 +20,4 @@ def test_withdraw():
 
 
 if __name__ == "__main__":
-    create_account()
+    test_deposit()

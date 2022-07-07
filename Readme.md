@@ -14,9 +14,12 @@ Setting up stuff
     cd my_env/Scripts
     activate
 
-3. install python requirements.txt (pip install -r requirements.txt)
+3. Install make (installed via: choco install make)
 
-4. Install make (installed via: choco install make)
+4. run make setup:
+    installs python requirements.txt
+    installs pre-commit hooks
+
 
 ------------------------
 
@@ -29,4 +32,4 @@ Testing the project:
 6. run make format
     runs auto-formatting
 
-7. configure pre-commit yaml for hooks
+7. configure pre-commit yaml for hooks (can test with: pre-commit run --all-files)
