@@ -1,4 +1,5 @@
-/__pycache__
-/.pytest_cache
-/my_env
-.coverage
+src/__pycache__
+src/.pytest_cache
+src/my_env
+src/.coverage
+my_env
