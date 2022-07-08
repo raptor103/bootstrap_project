@@ -6,8 +6,7 @@ Setting up stuff
 
 ------------------------
 
-1. Initialize empty git repo
-    git init
+1. Initialize empty git repo: git init
 
 2. Setup new python env:
     python -m venv my_env
