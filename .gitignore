@@ -1,5 +1,6 @@
-src/__pycache__
-src/.pytest_cache
-src/my_env
-src/.coverage
+/__pycache__
+src/tests/__pycache__/
+/.pytest_cache
+/my_env
+.coverage
 my_env

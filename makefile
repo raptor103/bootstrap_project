@@ -3,8 +3,8 @@ setup:
 	pip install -r requirements.txt
 
 test:
-	pytest --cov
-	flake8
+	pytest --cov src
+	flake8 src
 
 format:
-	black main.py account.py
+	black src/
